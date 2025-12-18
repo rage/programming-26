@@ -105,6 +105,6 @@ The exercise template contains the image `rock.png` for the asteroid.
 
 Please respond to a quick questionnaire on this part of the course.
 
-<quiz id="f191a4ab-73b8-5c08-af6c-b19d75a8f8fc"></quiz>
+<quiz id="9b57c7ea-8983-507f-93e7-243be766e2ad"></quiz>
 
 
