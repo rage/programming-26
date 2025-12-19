@@ -6,35 +6,35 @@ information_page: true
 sidebar_priority: 6000
 ---
 
-To pass the Python Programming MOOC courses you are expected to both complete exercises and take part in an exam.
+To pass the Python Programming MOOC courses, you are expected to both complete exercises and take part in an exam.
 
 ### Upcoming exams
 
 #### Introduction to Programming
 
-* ~~Saturday 08.03.2025~~
-* ~~Saturday 03.05.2025~~
-* ~~Saturday 07.06.2025~~
-* ~~Saturday 19.07.2025~~
-* ~~Saturday 06.09.2025~~
-* ~~Tuesday 28.10.2025 (New date!)~~
-* ~~Saturday 22.11.2025~~
-* Saturday 17.01.2026
+* Saturday 07.03.2026
+* Saturday 02.05.2026
+* Saturday 06.06.2026
+* Saturday 18.07.2026
+* Saturday 05.09.2026
+* Tuesday 27.10.2026
+* Saturday 5.12.2026
+* Saturday 16.1.2027
 
 #### Advanced Course in Programming
 
-* ~~Saturday 15.03.2025~~
-* ~~Saturday 10.05.2025~~
-* ~~Saturday 14.06.2025~~
-* ~~Saturday 16.08.2025~~
-* ~~Tuesday 21.10.2025~~
-* Tuesday 16.12.2025
-* Saturday 24.01.2026
-* Saturday 28.02.2026
+* Saturday 14.03.2026
+* Saturday 09.05.2026
+* Saturday 13.06.2026
+* Saturday 15.08.2026
+* Tuesday 20.10.2026
+* Saturday 15.12.2026
+* Saturday 23.01.2027
+* Saturday 27.02.2027
 
 ## Taking a programming exam
 
-Once you have completed the required number of exercises for either of the courses, you may take the relevant course exam at any of the times listed above. Specifically, you must have received at least 25% of the exercise points for each of the seven parts of the course by 8 AM on the morning of the exam. If you are taking the advanced course exam, part 14 must be fully completed. If any of the seven points totals fall short of this limit, your exam submission will not be graded.
+Once you have completed the required number of exercises for either of the courses, you may take the relevant course exam at any of the times listed above. Specifically, you must have received at least 25% of the exercise points for each of the seven parts of the course by 8 AM on the morning of the exam. If you are taking the advanced course exam, part 14 must be fully completed. If any of the seven point totals fall short of this limit, your exam submission will not be graded.
 
 Submissions are assessed separately for the Introduction to Programming course (parts 1-7) and the Advanced Course in Programming (parts 8-14).
 
@@ -102,8 +102,13 @@ The final grade is calculated based on the number of exercise points received du
 
 For example, if your total points percentage for the exercises for the whole course is 42 %, and you receive 79 % of the points in the exam, your final points percentage will be (42 % + 79 %) / 2 = 60.5 %, which equals grade 2 (Satisfactory).
 
-To pass the course you must have received at least 25% of the exercise points for each part of the course, regardless of the above calculation.
+To pass the course, you must have received at least 25% of the exercise points for each part of the course, regardless of the above calculation.
 
 #### Exam points cutoff
 
-To pass the course you must receive at least 50% of the total points available in the exam.
+To pass the course, you must receive at least 50% of the total points available in the exam.
+
+
+#### Suspected cheating
+
+If, during the examination of exam papers, there is reason to suspect cheating based on either the exam answers or MOOC answers, the exam taker will be sent a request for a response. If the response is acceptable, a short remote interview will be arranged, during which the exam taker will explain their solutions to the tasks assigned by the teacher. If there is reason to believe that the solutions were made independently, the student will receive a normal grade for the course, and no suspicion will be noted anywhere. If the student is unable to provide an acceptable explanation or explain their solutions in an acceptable manner, the exam and course performance will be rejected and the matter will be referred for further consideration in accordance with the University of Helsinki's exam cheating rules.
