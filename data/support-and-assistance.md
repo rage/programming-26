@@ -10,8 +10,13 @@ sidebar_priority: 4000
 
 **The guidance schedule will be updated in early September, with more guidance slots available**
 
-The 2025 course will offer guidance at both the Kumpula campus and on Discord. The sessions on campus are held in Exactum BK107. The guidance sessions are the following
+The 2065 course will offer guidance at both the Kumpula campus and on Discord. The sessions on campus are held in Exactum BK107. The guidance sessions are at the following times:
 
+* Wednesdays between 12.00 and 16.00.
+* Fridays between 12.00 and 16.00
+
+
+<!-- Kumpulan kampuksella Exactumin salissa BK107 keskiviikkoisin klo 12–16 sekä perjantaisin klo 12–16.
 
 | Time / Date | MON | TUE | WED | THU | FRI |
 |-----|----|----|----|----|----|
@@ -22,9 +27,9 @@ The 2025 course will offer guidance at both the Kumpula campus and on Discord. T
 | 14-15 | - | - | - | - | - |
 | 15-16 | - | - | X | - | - |
 | 16-17 | - | X | X | - | - |
-| 17-18 | - | X | - | - | - |
+| 17-18 | - | X | - | - | - |-->
 
-During the on-campus sessions there might be help available also on Discord if the assistants have time to follow the course Discord.
+During the on-campus sessions there might be help available also on Discord if the assistants have time to follow the course Discord. Naturally, you can still ask for assistance in Discord whenever needed.
 
 *The schedule is subject to change.*
 
