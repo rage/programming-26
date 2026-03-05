@@ -19,6 +19,8 @@ export function authenticate(credentials) {
   return new Promise((resolve, reject) => {
     tmcClient.authenticate(credentials).then(
       (res) => {
+        store.remove("tmc.user.details")
+        store.remove("tmc.courses")
         loginStateChanged()
         resolve(res)
       },
@@ -101,11 +103,15 @@ export async function userDetails() {
 }
 
 export async function getCachedUserDetails() {
-  let details = store.get("tmc.user.details")
-  if (!details) {
-    details = await userDetails()
+  try {
+    return await userDetails()
+  } catch (e) {
+    const details = store.get("tmc.user.details")
+    if (details) {
+      return details
+    }
+    throw e
   }
-  return details
 }
 
 const createHeader = () => ({
@@ -138,6 +144,7 @@ export async function updateUserDetails({ extraFields, userField }) {
     { headers: { Authorization: `Bearer ${accessToken()}` } },
   )
   store.remove("tmc.user.details")
+  store.remove("tmc.courses")
   await userDetails()
   return res
 }
@@ -186,12 +193,16 @@ export async function courseVariants() {
   return res
 }
 
-export function getCachedCourseVariants() {
-  let variants = store.get("tmc.courses")
-  if (!variants) {
-    variants = courseVariants()
+export async function getCachedCourseVariants() {
+  try {
+    return await courseVariants()
+  } catch (e) {
+    const variants = store.get("tmc.courses")
+    if (variants) {
+      return variants
+    }
+    throw e
   }
-  return variants
 }
 
 export async function fetchProgrammingExerciseDetails(exerciseName) {
