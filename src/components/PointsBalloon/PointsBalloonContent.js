@@ -57,6 +57,16 @@ class PointsBalloonContent extends React.Component {
 
   async componentDidMount() {
     this.setState({ render: true })
+    await this.fetchProgressData()
+  }
+
+  async componentDidUpdate(prevProps) {
+    if (this.props.open && !prevProps.open) {
+      await this.fetchProgressData()
+    }
+  }
+
+  fetchProgressData = async () => {
     try {
       let data = await fetchProgress(this.props.t)
       let userDetails = await getCachedUserDetails()
