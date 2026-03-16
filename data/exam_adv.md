@@ -13,7 +13,7 @@ hide_in_sidebar: false
 
 #### Taking the programming exam
 
-* You do not need to enrol for the exam.
+* You do not need to enroll for the exam.
 * Taking the programming exam is a mandatory requirement for completing the course.
 
 #### Exam arrangements
