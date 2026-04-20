@@ -107,7 +107,7 @@ Hi Ada, we hope you enjoy learning Python with us! Best, Mooc.fi Team
 
 If you want to append data to the end of a file, instead of overwriting the entire file, you should open the file in append mode with the argument `a`.
 
-If the file doesn't yet exist, append mode works exatly like write mode.
+If the file doesn't yet exist, append mode works exactly like write mode.
 
 The following program opens the file `new_file.txt` and appends a couple of lines of text to the end:
 
@@ -403,7 +403,7 @@ def save_results(filename, weekly_points):
             my_file.write(f"{name};{point_sum};{grade(point_sum)}\n")
 ```
 
-This structure lets us write a very simple main function. Notice how the filenames for the files whch are read and written are given as arguments in the main function:
+This structure lets us write a very simple main function. Notice how the filenames for the files which are read and written are given as arguments in the main function:
 
 ```python
 weekly_points = read_weekly_points("weekly_points.csv")
