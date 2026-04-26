@@ -31,7 +31,7 @@ hide_in_sidebar: false
 
 #### At the exam date
 
-* In case of technical problems, the course instructor will be on standby **from 10:00 AM (UTC+3) to 2:00 PM (UTC+3)** on the [Discord](https://study.cs.helsinki.fi/discord/join/ohjelmoinnin_mooc) at channel `ohjelmoinnin_mooc_english`.
+<!--* In case of technical problems, the course instructor will be on standby **from 10:00 AM (UTC+3) to 2:00 PM (UTC+3)** on the [Discord](https://study.cs.helsinki.fi/discord/join/ohjelmoinnin_mooc) at channel `ohjelmoinnin_mooc_english`.-->
 * On the exam date **from 2:00 PM (UTC+3) to 10:00 PM (UTC+3)** discussion in the course's support channels is forbidden. The course's Discord is locked and messages cannot be sent to channels.
 
 #### Fetching the programming task templates
