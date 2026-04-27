@@ -417,7 +417,7 @@ When the main function is executed, the contents of the file `results.csv` creat
 Peter;18;0
 Paula;34;3
 Susan;26;2
-Emily;41;5
+Emily;34;3
 
 </sample-data>
 
