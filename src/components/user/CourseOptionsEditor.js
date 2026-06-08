@@ -253,20 +253,6 @@ class CourseOptionsEditor extends React.Component {
                 <FormControlLabel
                   control={
                     <Checkbox
-                      checked={this.state.digital_education_for_all}
-                      onChange={this.handleCheckboxInput}
-                      name="digital_education_for_all"
-                      value="1"
-                    />
-                  }
-                  label="Olen tällä hetkellä opiskelijana Digital Education for All -hankkeessa. Jätä tämä valitsematta mikäli et tiedä kyseisestä hankkeesta."
-                />
-              </Row>
-
-              <Row>
-                <FormControlLabel
-                  control={
-                    <Checkbox
                       checked={this.state.marketing}
                       onChange={this.handleCheckboxInput}
                       name="marketing"
