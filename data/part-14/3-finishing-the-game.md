@@ -8,9 +8,9 @@ Our game is already quite functional, so it is time to add some finishing touche
 
 ## Move counter
 
-The move counter near the bottom edge of the game window displaye the number of moves taken by the player so far. This can be used to find the solution with the least number of moves.
+The move counter near the bottom edge of the game window displays the number of moves taken by the player so far. This can be used to find the solution with the least number of moves.
 
-The counter requires some shanges to the code. First, let's change the constructor so that there is adequate space for the counter, and that we have an appropriate font at our disposal in order to draw the text:
+The counter requires some changes to the code. First, let's change the constructor so that there is adequate space for the counter, and that we have an appropriate font at our disposal in order to draw the text:
 
 ```python
     def __init__(self):
@@ -117,14 +117,14 @@ The player can still see the game grid and the final state of the game, however.
 
 When developing games it often happens that you'd want to check what happens in some later situation in the game. For example, in this game the moment where the game is solved is one such situation.
 
-It can be difficult to test the correct functioning of a situation like that, as you'd normally ahve to solve the game to reach that point in the game. As programmers we can make some temporary alleviations in our games, to make it easier to test them. For example, we could add the following to make it temporarily easier to solve the game:
+It can be difficult to test the correct functioning of a situation like that, as you'd normally have to solve the game to reach that point in the game. As programmers we can make some temporary alleviations in our games, to make it easier to test them. For example, we could add the following to make it temporarily easier to solve the game:
 
 ```python
     def game_solved(self):
         return True
 ```
 
-Now the method always returns `True`, which means that the game is "solved" to begin with. This makes it easy to check that the noification at the end looks good and the player can no longer move on the grid after solving. When this functionality is thoroughly tested, we can revoke the changes.
+Now the method always returns `True`, which means that the game is "solved" to begin with. This makes it easy to check that the notification at the end looks good and the player can no longer move on the grid after solving. When this functionality is thoroughly tested, we can revoke the changes.
 
 ## Your game on GitHub?
 
