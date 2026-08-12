@@ -24,7 +24,7 @@ Let's have a look at two class definitions: `Student` and `Teacher`. Getter and 
 
 class Student:
 
-    def __init__(self, name: str, id: str, email: str, credits: str):
+    def __init__(self, name: str, id: str, email: str, credits: int):
         self.name = name
         self.id = id
         self.email = email
@@ -92,7 +92,7 @@ class Person:
 
 class Student(Person):
 
-    def __init__(self, name: str, id: str, email: str, credits: str):
+    def __init__(self, name: str, id: str, email: str, credits: int):
         self.name = name
         self.id = id
         self.email = email
