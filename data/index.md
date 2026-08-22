@@ -17,15 +17,13 @@ The Introduction to Programming course consists of parts 1 through 7 in the mate
 
 ## Support channels on the course
 
-The official course support channels are available through workshop guidance on campus and Discord. The course channels in Discord are available through [this link](https://study.cs.helsinki.fi/discord/join/ohjelmoinnin_mooc).
-
-Please see the [Support and assistance](/support-and-assistance) page for more details.
+The official course support channels are available through workshop guidance on campus and the [course Discord channels](https://study.cs.helsinki.fi/discord/join/ohjelmoinnin_mooc). For more information, see the [Support and assistance](/support-and-assistance) page.
 
 Use Discord primarily for communication. You can be in contact with the course teachers by e-mail ohjelmoinnin-mooc@helsinki.fi.
 
 ## Timetable
 
-The course will be open until the end of the year 2026. 
+The course will be open until the end of the year 2026.
 
 ## Lectures
 
