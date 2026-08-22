@@ -49,7 +49,7 @@ The next lecture in the course will take place in autumn 2026. Lecture recording
     </tr>
     <tr>
       <td>Part 3 (2025)</td>
-      <td><a href="https://youtu.be/kzGJLq6qmlc">Recording 18.09.2025</a></td>>
+      <td><a href="https://youtu.be/kzGJLq6qmlc">Recording 18.09.2025</a></td>
     </tr>
     <tr>
       <td>Part 4 (2025)</td>
@@ -94,7 +94,6 @@ The next lecture in the course will take place in autumn 2026. Lecture recording
     <tr>
       <td>Part 14</td>
       <td>No recording, project work</td>
-      <td></td>
     </tr>
   </tbody>
 </table>
