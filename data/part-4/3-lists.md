@@ -389,7 +389,7 @@ Notice how the method modifies the list itself. Sometimes we don't want to chang
 
 ```python
 my_list = [2,5,1,2,4]
-print(sorted(my_list)))
+print(sorted(my_list))
 ```
 
 <sample-output>
@@ -671,7 +671,7 @@ Please write a function named  `range_of_list`, which takes a list of integers a
 
 ```python
 my_list = [1, 2, 3, 4, 5]
-result = range_of_list(my_list))
+result = range_of_list(my_list)
 print("The range of the list is", result)
 ```
 
