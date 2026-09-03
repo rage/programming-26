@@ -6,7 +6,7 @@ information_page: true
 sidebar_priority: 4000
 ---
 
-### Guidance during August
+### Guidance during autumn
 
 **The guidance schedule will be updated in early September, with more guidance slots available**
 
