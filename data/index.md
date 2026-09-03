@@ -31,7 +31,7 @@ The course will be open until the end of the year 2026.
 
 The remote lectures in the course are given on Thursdays at 10.15 Finnish time. [You can follow the lectures via Zoom](https://helsinki.zoom.us/j/69552727154?pwd=skwCXNgrTltfFJBe38w2zC2mvxkd2e.1). 
 
-Lecture recordings from 2025 are available in the table below. Please note that dates and other practical information in the lecture videos do not concern this year's course.
+There are also lecture recordings from 2025 available in the table below. Please note that dates and other practical information in those lecture videos do not concern this year's course.
 
 <table>
   <thead>
