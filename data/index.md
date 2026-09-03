@@ -38,12 +38,14 @@ Lecture recordings from 2025 are available in the table below. Please note that 
     <tr>
       <td>Part</td>
       <td>Recording</td>
+      <td>Slides</td>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Part 1 (2025)</td>
-      <td><a href="https://youtu.be/SP8FaDc5uUo">Recording 04.09.2025</a></td>
+      <td>Part 1 (2026)</td>
+      <td><a href="https://youtu.be/-mmxsTadINo">Recording 03.09.2026</a></td>
+      <td><a href="https://docs.google.com/presentation/d/1zUGqmAumuSVqPLZwgbfhuuhVAm_maBvoAuvNorS5Xw4/edit?usp=sharing">Slides 1</a></td>
     </tr>
     <tr>
       <td>Part 2 (2025)</td>
