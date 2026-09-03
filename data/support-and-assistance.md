@@ -10,10 +10,12 @@ sidebar_priority: 4000
 
 **The guidance schedule will be updated in early September, with more guidance slots available**
 
-The 2026 course will offer guidance at both the Kumpula campus and on Discord. The sessions on campus are held in Exactum BK107. The guidance sessions are at the following times:
+The 2026 course will offer guidance at both the Kumpula campus and on Discord. The sessions on campus are held in Exactum BK107. The guidance sessions are at the following times (UPDATED on Sep 3th):
 
-* Wednesdays between 12.00 and 16.00.
-* Fridays between 12.00 and 16.00
+* Mondays 16:00 to 19:00
+* Tuesdays 13:00 to 16:00
+* Thursdays 16:00 to 19:00
+* Fridays 13:00 to 16:00
 
 
 <!-- Kumpulan kampuksella Exactumin salissa BK107 keskiviikkoisin klo 12–16 sekä perjantaisin klo 12–16.
