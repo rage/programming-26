@@ -16,6 +16,10 @@ const courseSettings = {
       tmcOrganization: "laurea",
       tmcCourse: "python-english-2026-laurea-henttonen"
     },
+    {
+      tmcOrganization: "seamk",
+      tmcCourse: "basics-of-programming-2023"
+    },
     // {
     //   tmcOrganization: "hbc",
     //   tmcCourse: "python-TVT24Eng"
