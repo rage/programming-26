@@ -14,9 +14,26 @@ After this section
 
 </text-box>
 
-We have already used functions such as `len`, `print` and `input` in our programs. These are functions built into Python, and so they are always ready at our disposal, no matter which environment we are programming in. However, it is also possible to define your own functions.
+## Parsons Code Lab
+
+As part of ongoing research on computer science education at the University of Helsinki, a new programming practice software, Parsons Code Lab, is being developed. In the software, you get to solve programming exercises in the form of [Parsons problems](https://en.wikipedia.org/wiki/Parsons_problem); by ordering and filling in blocks of code.
+
+By clicking the link below, you'll get access to a set of exercises that lets you review many of the central programming concepts you have learned so far: loops, conditionals, string operations, etc. These exercises are voluntary supporting material and will not affect grading in any way. The course teacher can, however, view statistics on exercise attempts via the teacher dashboard of the software.
+
+[To exercises](https://parsonscodelab.web.helsinki.fi/laurasini/set/introduction-to-programming-halfway-review)
+
+Kindly note that the software is in active development and there might be some issues.
+Please help the development by sharing any possible issues and comments via an anonymous feedback questionnaire! It will take approx. 1 minute to fill in but will help further development immeasurably.
+
+[Give feedback](https://elomake.helsinki.fi/lomakkeet/IYqXp/lomake.html)
+
+Exercise activity and feedback may be used in research in a completely anonymized form.
+Thank you for your contribution!
+
 
 ## The function definition
+
+We have already used functions such as `len`, `print` and `input` in our programs. These are functions built into Python, and so they are always ready at our disposal, no matter which environment we are programming in. However, it is also possible to define your own functions.
 
 Before a function can be used, it must be defined. Any function definition begins with the keyword `def`, short for _define_. Then comes the _name_ of the function, followed by parentheses and a colon character. This is called the _header_ of the function. After this, indented just like `while` and `if` blocks, comes the _body_ of the function.
 
