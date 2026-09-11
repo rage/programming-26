@@ -128,7 +128,7 @@ If the execution of the method has reached this point without returning, it is t
 
 ## Refactoring?
 
-Using only the grid to store the state of the game at all times is very handy in the sense that only one variable is permanently invlved in the whole process, and it is relatively easy to update the state of the grid through simple additions and subtractions.
+Using only the grid to store the state of the game at all times is very handy in the sense that only one variable is permanently involved in the whole process, and it is relatively easy to update the state of the grid through simple additions and subtractions.
 
 The downside is that it can be a tad difficult to understand the program code of the game. If someone unfamiliar with the logic used saw this following line of code, they would likely be a bit perplexed:
 
@@ -136,7 +136,7 @@ The downside is that it can be a tad difficult to understand the program code of
             if self.map[box_new_y][box_new_x] in [1, 3, 5]:
 ```
 
-The code snippet above makes use of _magic numbers_ to represent the squares in the grid. ANyone reading the code would have to know that 1 means wall, 3 means a box and 5 means a box in a target square.
+The code snippet above makes use of _magic numbers_ to represent the squares in the grid. Anyone reading the code would have to know that 1 means wall, 3 means a box and 5 means a box in a target square.
 
 The lines involving the clever subtractions and additions would look even more baffling:
 
@@ -144,7 +144,7 @@ The lines involving the clever subtractions and additions would look even more b
             self.map[robot_new_y][robot_new_x] -= 3
 ```
 
-The number 3 meant a box just previously, but now it is subtracted from the value of a square on the grid. This works in the context of our numbering scheme, as it changes a box (3) into a normal floor square (0), or a target square with a box (5) into an empty target square (2), but understanding this requiares a primer in the numbering scheme used.
+The number 3 meant a box just previously, but now it is subtracted from the value of a square on the grid. This works in the context of our numbering scheme, as it changes a box (3) into a normal floor square (0), or a target square with a box (5) into an empty target square (2), but understanding this requires a primer in the numbering scheme used.
 
 We could make it easier for anyone reading the code by _refactoring_ our implementation. That means improving the structure and readability of the code. One way to achieve this would be to use the names of the squares instead of the numbers 0 to 6, even though this would still not explain how and why numbers can be added and subtracted while maintaining the integrity of the grid. 
 

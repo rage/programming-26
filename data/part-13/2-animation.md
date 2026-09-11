@@ -180,7 +180,7 @@ Running the above code should look like this:
 
 <img src="pygame_rotation.gif">
 
-Rotation in a relatively precise circle is achieved with the help of some basic trigonometric functions. The varible `angle` contains the angle of the robots location in relation to the centre of the window and the horizontal line running through it. The sine and cosine functions from the Python math library are used to calculate the coordinates of the robot's location:
+Rotation in a relatively precise circle is achieved with the help of some basic trigonometric functions. The variable `angle` contains the angle of the robots location in relation to the centre of the window and the horizontal line running through it. The sine and cosine functions from the Python math library are used to calculate the coordinates of the robot's location:
 
 ```python
         x = 320+math.cos(angle)*100-robot.get_width()/2
@@ -189,7 +189,7 @@ Rotation in a relatively precise circle is achieved with the help of some basic 
 
 The robot rotates around a circle of radius 100 around the centre of the window. The hypotenuse in this scenario is the radius of the circle. The cosine function gives the length of the _adjacent_ side of a right triangle in relation to the hypotenuse, which means that it gives us the `x` coordinate of the location. The sine function gives the length of the _opposite_ side, i.e. the `y` coordinate. The location is then adjusted for the size of the image, so that the centre of the circle is at the centre of the window.
 
-With each iteration the size of the `angle` is incremented by 0.01:llä. As we are using radians, a full circle is 2π, which equals about 6.28. It takes about 628 iterations for the robot to go a full circle, and at 60 iterations per second this takes just over 10 seconds.
+With each iteration the size of the `angle` is incremented by 0.01. As we are using radians, a full circle is 2π, which equals about 6.28. It takes about 628 iterations for the robot to go a full circle, and at 60 iterations per second this takes just over 10 seconds.
 
 <programming-exercise name='Vertical movement' tmcname='part13-05_vertical_movement'>
 
@@ -235,7 +235,7 @@ The exercise template contains the image `ball.png`.
 
 <programming-exercise name='Robot invasion' tmcname='part13-10_robot_invasion'>
 
-Please create an animation where robots fall from the sky randomly. When a robot reaches the ground, it starts moving to the left or to the right, and finaly disappears off the screen. The end result should look like this:
+Please create an animation where robots fall from the sky randomly. When a robot reaches the ground, it starts moving to the left or to the right, and finally disappears off the screen. The end result should look like this:
 
 <img src="pygame_invasion.gif">
 

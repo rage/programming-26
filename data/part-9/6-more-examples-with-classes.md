@@ -287,7 +287,7 @@ Please note that there is an issue resulting from an update in Python, which con
 
 <programming-exercise name='Item, Suitcase and Cargo hold' tmcname='part09-15_item_suitcase_hold'>
 
-In this series of exercises you will create the classes `Item`, `Suitcase` and `Cargo Hold`, which will let you further practice working on objects which contain references to other objects.
+In this series of exercises you will create the classes `Item`, `Suitcase` and `CargoHold`, which will let you further practice working on objects which contain references to other objects.
 
 ## Item
 

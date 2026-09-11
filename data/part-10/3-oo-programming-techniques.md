@@ -77,8 +77,8 @@ print(orange.cheaper(banana))
 
 <sample-output>
 
-Apple (2.99)
-Orange (3.95)
+Apple (price 2.99)
+Orange (price 3.95)
 
 </sample-output>
 
