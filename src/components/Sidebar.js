@@ -3,6 +3,7 @@ import styled from "styled-components"
 import { graphql, StaticQuery } from "gatsby"
 import { Button } from "@material-ui/core"
 import CourseSettings from "../../course-settings"
+import { withTranslation } from "react-i18next"
 
 import Logo from "./Logo"
 import TreeView from "./TreeView"
@@ -177,12 +178,12 @@ const Sidebar = (props) => {
           {props.mobileMenuOpen ? (
             <span>
               <StyledIcon icon={faTimes} />
-              Sulje valikko
+              {props.t("closeMenu")}
             </span>
           ) : (
             <span>
               <StyledIcon icon={faBars} />
-              Avaa valikko
+              {props.t("openMenu")}
             </span>
           )}
         </Button>
@@ -233,4 +234,6 @@ const SidebarWithData = (props) => (
   />
 )
 
-export default withSimpleErrorBoundary(SidebarWithData)
+export default withTranslation("common")(
+  withSimpleErrorBoundary(SidebarWithData),
+)
