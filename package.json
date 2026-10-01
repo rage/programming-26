@@ -125,5 +125,10 @@
     "hooks": {
       "pre-commit": "./bin/check-code-style.sh"
     }
+  },
+  "overrides": {
+    "react-dev-utils": {
+      "immer": "9.0.6"
+    }
   }
 }
