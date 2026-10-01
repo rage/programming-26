@@ -3,7 +3,11 @@ import styled from "styled-components"
 import ContentLoader from "react-content-loader"
 import { withTranslation } from "react-i18next"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faPencilAlt as icon, faRedo } from "@fortawesome/free-solid-svg-icons"
+import {
+  faPencilAlt as icon,
+  faRedo,
+  faLink,
+} from "@fortawesome/free-solid-svg-icons"
 import { Card, CardContent, Button, Typography } from "@material-ui/core"
 
 import { normalizeExerciseId } from "../../util/strings"
@@ -109,6 +113,27 @@ const StyledRefreshIcon = styled(FontAwesomeIcon)`
   color: white;
 `
 
+const Permalink = styled.a`
+  color: inherit;
+  display: inline-block;
+  margin-left: 0.5rem;
+  font-size: 0.5em;
+  text-decoration: none;
+  vertical-align: middle;
+  opacity: 0;
+
+  h3:hover &,
+  h3:focus-within &,
+  &:focus {
+    opacity: 1;
+  }
+
+  &:hover,
+  &:focus {
+    color: inherit;
+  }
+`
+
 class ProgrammingExerciseCard extends React.Component {
   render() {
     const {
@@ -122,15 +147,23 @@ class ProgrammingExerciseCard extends React.Component {
       difficulty,
     } = this.props
 
+    const exerciseId = normalizeExerciseId(`programming-exercise-${name}`)
+
     return (
-      <ProgrammingExerciseWrapper
-        id={normalizeExerciseId(`programming-exercise-${name}`)}
-      >
+      <ProgrammingExerciseWrapper id={exerciseId}>
         <Header completed={completed}>
           <StyledIcon icon={icon} size="2x" />
           <HeaderTitleContainer>
             <HeaderMuted>{this.props.t("programmingExercise")} </HeaderMuted>
-            <h3>{name}</h3>
+            <h3>
+              {name}
+              <Permalink
+                href={`#${exerciseId}`}
+                aria-label={`${name} permalink`}
+              >
+                <FontAwesomeIcon icon={faLink} aria-hidden="true" />
+              </Permalink>
+            </h3>
             {/*Ikävän kompleksinen. Onko syytä laittaa omaan komponenttiin?*/}
             {difficulty ? (
               <Difficulty>
