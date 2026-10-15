@@ -71,8 +71,9 @@ There are also lecture recordings from 2025 available in the table below. Please
       <td><a href="https://docs.google.com/presentation/d/1UPmRAcMVI85IpLq6sT1RS7tjrmf7MtLPKzx8O0U_JhI/edit?usp=sharing">Slides 6</td>
     </tr>
     <tr>
-      <td>Part 7 (2025)</td>
-      <td><a href="https://youtu.be/6D1bvUdsNyg">Recording 16.10.2025</a></td>
+      <td>Part 7 (2026)</td>
+      <td><a href="https://youtu.be/GxjeA5y8yLw">Recording 15.10.2026</a></td>
+      <td><a href="https://docs.google.com/presentation/d/18KTq8TeWdobWSCuSU7n1JzDaxKgsGXQRQB8ey8U78MY/edit?usp=sharing">Slides 7</a></td>
     </tr>
     <tr>
       <td>Part 8 (2025)</td>
