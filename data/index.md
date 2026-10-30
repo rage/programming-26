@@ -31,6 +31,8 @@ The remote lectures in the course are given on Thursdays at 10.15 Finnish time. 
 
 There are also lecture recordings from 2025 available in the table below. Please note that dates and other practical information in those lecture videos do not concern this year's course.
 
+<strong>Please note:</strong> Due to technical difficulties, the Part 8 recording will not be available. The link to the corresponding recording from 2025 is available to view, but the dates and some other practicalities are not correct. Please refer to the lecture slides for these!
+
 <table>
   <thead>
     <tr>
@@ -76,8 +78,11 @@ There are also lecture recordings from 2025 available in the table below. Please
       <td><a href="https://docs.google.com/presentation/d/18KTq8TeWdobWSCuSU7n1JzDaxKgsGXQRQB8ey8U78MY/edit?usp=sharing">Slides 7</a></td>
     </tr>
     <tr>
-      <td>Part 8 (2025)</td>
-      <td><a href="https://youtu.be/puTMAAO8GCM">Recording 30.10.2025</a></td>
+      <td>Part 8 (2026)</td>
+      <td>
+         2025 recording:
+        <a href="https://youtu.be/puTMAAO8GCM">Recording 30.10.2025</a></td>
+      <td><a href="https://docs.google.com/presentation/d/1uZqpd7AQbhY6jYQNbTCYciNChG8UC85hGqNun8b105g/edit?usp=sharing">Slides 8</a></td>
     </tr>
     <tr>
       <td>Part 9 (2025)</td>
