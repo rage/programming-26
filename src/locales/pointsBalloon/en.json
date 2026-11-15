@@ -1,6 +1,6 @@
 {
-    "gotPoints": "Awarded points: ",
-    "maxPoints": "Maximum points: ",
+    "gotPoints": "Awarded points: {{points}}",
+    "maxPoints": "Maximum points: {{points}}",
     "programmingService": "Programming exercises",
     "quizService": "Quizzes",
     "totalPoints": "Total points",
