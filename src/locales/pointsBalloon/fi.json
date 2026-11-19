@@ -1,6 +1,6 @@
 {
-    "gotPoints": "Saadut pisteet: ",
-    "maxPoints": "Maksimipisteet: ",
+    "gotPoints": "Saadut pisteet: {{points}}",
+    "maxPoints": "Maksimipisteet: {{points}}",
     "programmingService": "Ohjelmointitehtävät",
     "quizService": "Kyselyt",
     "totalPoints": "Tehtäväpisteet yhteensä",
