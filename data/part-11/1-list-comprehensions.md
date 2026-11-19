@@ -488,4 +488,4 @@ print(week8.hits_in_place(my_numbers))
 
 </sample-output>
 
-</programming-exercises>
+</programming-exercise>

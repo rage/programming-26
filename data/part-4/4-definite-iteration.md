@@ -288,7 +288,7 @@ voit suorittaa testit lähettämällä ne palvelimelle valitsemalla testien suor
 
 Ongelman saa korjattua menemällä laajennuksen asennusvalikkoon ja muuttamalla "TMC Data" -kohdassa tehtävien sijainnin johonkin toiseen sijaintiin, jonka tiedostopolku on lyhempi, allaolevassa kuvassa nappi _change path_. Siirrossa saattaa kestää hetken, joten odotathan operaation päättymistä.
 
-<img src="4_3_3.png" alt="Listan iterointi">
+<img src="4_3_3.png" alt="Iterating over a list">
 
 Ongelmaan pyritään saamaan parempi ratkaisu lähipäivinä. -->
 

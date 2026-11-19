@@ -272,8 +272,6 @@ You will use three dice:
 - Die B has the sides 2, 2, 2, 5, 5, 5
 - Die C has the sides 1, 4, 4, 4, 4, 4
 
-</pre>
-
 Please write a function named `roll(die: str)`, which rolls the die specified by the argument. An example of how this should work:
 
 ```python

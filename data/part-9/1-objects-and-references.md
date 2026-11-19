@@ -118,6 +118,8 @@ ExamSubmission (examinee: Pippa, points: 19)
 ExamSubmission (examinee: Paul, points: 15)
 ExamSubmission (examinee: Persephone, points: 17)
 
+</sample-output>
+
 </programming-exercise>
 
 You may remember that lists do not contain any objects themselves. They contain _references to objects_. The exact same object can appear multiple times in a single list, and it can be referred to multiple times within the list or outside it. Let's have a look at an example:

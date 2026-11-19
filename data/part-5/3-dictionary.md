@@ -407,6 +407,8 @@ name: **peter**
 command (1 search, 2 add, 3 quit): **3**
 quitting...
 
+</sample-output>
+
 </programming-exercise>
 
 ## Removing keys and values from a dictionary
