@@ -165,8 +165,7 @@ The hobbies should be listed in the same order as they appear in the JSON file.
 
 ## Retrieving a file from the internet
 
-The Python standard library also contains modules for dealing with online content, and one useful function is [urllib.request.urlopen](
-https://docs.python.org/3/library/urllib.request.html#urllib.request.urlopen). You are encouraged to have a look at the entire module, but the following example should be enough for you to get to grips with the function. It can be used to retrieve content from the internet, so it can be processed in your programs.
+The Python standard library also contains modules for dealing with online content, and one useful function is [urllib.request.urlopen](https://docs.python.org/3/library/urllib.request.html#urllib.request.urlopen). You are encouraged to have a look at the entire module, but the following example should be enough for you to get to grips with the function. It can be used to retrieve content from the internet, so it can be processed in your programs.
 
 The following code would print out the contents of the University of Helsinki front page:
 

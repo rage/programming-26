@@ -184,7 +184,7 @@ Please type in a number: **6**
 1
 Please type in a number: **-1**
 
-</Sample-output>
+</sample-output>
 
 When there are nested loops, `break` and `continue` commands only affect the innermost loop which they are a part of. The previous example could also be written like this:
 
