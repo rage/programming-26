@@ -14,6 +14,8 @@
     "logout":"Kirjaudu ulos",
     "newAccount":"Luo uusi tunnus",
     "login":"Kirjaudu sisään",
+    "closeMenu": "Sulje valikko",
+    "openMenu": "Avaa valikko",
     "mailingListTitle":"Muistuta minua kun kurssi alkaa",
     "subscribe":"tilaa",
     "tableOfContents":"Sisällysluettelo",
