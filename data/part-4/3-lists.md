@@ -684,7 +684,7 @@ The range of the list is 4
 </programming-exercise>
 
 
-There are many more ways to use lists in Python. The Python [documentation](https://docs.python.org/3/tutorial/datastructures.html) is a good place to start if you want to know more.
+There are more ways to use lists in Python. The Python [documentation](https://docs.python.org/3/tutorial/datastructures.html) is a good place to start if you want to know more.
 
 <!---
 A quiz to review the contents of this section:
