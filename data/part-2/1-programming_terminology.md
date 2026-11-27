@@ -52,7 +52,7 @@ In Python blocks are expressed by indenting all code in the block by the same am
 NB: the main block of a Python program must always be at the leftmost edge of the file, without indentation:
 
 ```python
-# this program will not work because it is not written at the leftmost egde of the file
+# this program will not work because it is not written at the leftmost edge of the file
   print("hello world")
   print("this program is not very good...")
 ```
